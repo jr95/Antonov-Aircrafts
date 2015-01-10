@@ -1,6 +1,8 @@
-an-12-flightgear
+Antonov-12 and Antonov-22 for Flightgear
 ================
 
-Antonov-An-12 for Flightgear, my first try to learn about Instruments, Blender and FG in general
+Antonov-An-12 for Flightgear, 
 
-First changes
+Antonov-22 for Flightgear,
+
+New Instrumentation, new panels, new interior and some addings to the official Versions.
