@@ -8,14 +8,14 @@
     -->
 
 <PropertyList>
- <path>lightcone-landing.ac</path>
+ <path>lightcone-taxi.ac</path>
 
 <!--Spot lights-->
 
 <animation>
    <type>light</type>
    <light-type>spot</light-type>
-   <object-name>lightcone-landing</object-name>
+   <object-name>lightcone-taxi</object-name>
    <nopreview/>
    <position>
      <x>0.0</x>
@@ -51,38 +51,16 @@
      <q>0.00005</q>
    </attenuation>
    <exponent>30.0</exponent>
-   <cutoff>10</cutoff>
-   <near-m>50</near-m>
-   <far-m>300</far-m>
+   <cutoff>60</cutoff>
+   <near-m>1</near-m>
+   <far-m>200</far-m>
  </animation>
-
+ 
   <animation>
 	  <type>select</type>
-	  <object-name>lightcone-landing</object-name>
 	  <condition>
-		  <property>sim/multiplay/generic/int[9]</property>		  
+		  <property>sim/multiplay/generic/int[8]</property>		  
 	  </condition>
-  </animation>
+  </animation> 
 
-  <!--Lights-->
-                                   
- <animation>  
-   <object-name>lightcone-landing</object-name>  
-</animation>
-
-
-  <!-- working for Rembrandt -->
- 
-
-  <animation>
-    <type>material</type>
-    <object-name>lightcone-landing</object-name>
-    <emission>
-      <factor-prop>tu154/switches/gauge-light</factor-prop>
-      <red>   0.25 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
-    </emission>
-  </animation>
-
-  </PropertyList> 
+</PropertyList> 
